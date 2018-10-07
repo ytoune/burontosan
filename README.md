@@ -1,7 +1,7 @@
 
 [https://ytoune.github.io/burontosan/](https://ytoune.github.io/burontosan/)
 
-`http://www.geocities.jp/burontosan/` のほぼコピー。
+`http://www.geocities.jp/burontosan/` を無断でほぼコピーしたもの。
 
 #### 補足
 
