@@ -1,0 +1,20 @@
+{
+  "name": "burontosan",
+  "scripts": {
+    "deploy": "npm run-script build && npm run-script push-page",
+    "push-page": "gh-pages -d dist",
+    "build": "webpack && rm dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "gh-pages": "^2.0.1",
+    "html-loader": "^0.5.5",
+    "mini-css-extract-plugin": "^0.4.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
