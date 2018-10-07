@@ -1,0 +1,92 @@
+.main .aka {
+  font-weight: bold;
+  color: red; }
+
+.main .kuro {
+  font-weight: bold; }
+
+.main .ex {
+  margin: 4px 4px 2px 4px;
+  padding: 3px 0 0 0;
+  border: 1px solid #000000;
+  font-family: Arial;
+  font-size: 20px; }
+
+.main h2.title02 {
+  margin: 0.5em 10% 1.2em 10px;
+  padding: 0.3em 0.5em 0.2em 0.5em;
+  border-style: solid;
+  border-width: 0 0 1px 25px;
+  border-color: #C8C8C9;
+  font-size: 16px; }
+
+.main h3.title02 {
+  font-family: "MS PGothic";
+  margin: 50em 15% 0.5em 10px;
+  padding: 1em 0.5em 0.1em 0.5em;
+  border-style: solid;
+  border-width: 0 0 1px 17px;
+  border-color: #DCDCDE;
+  font-size: 12pt; }
+
+.main pre.AA {
+  font-family: "MS PGothic";
+  font-size: 12pt; }
+
+.main h2.uandd {
+  font-size: 18px;
+  font-family: monospace;
+  margin: 1.5em 15% 0.7em 15px;
+  border-bottom: solid 1px #717178; }
+
+.main h2.uandd span.up {
+  color: #FFFFFF;
+  background-color: #414146;
+  padding: 0.2em 0.2em 0.1em 0.2em;
+  margin: 0 2px 0 0;
+  border: solid 1px #414146; }
+
+.main h2.uandd span.down {
+  color: #212125;
+  background-color: #FFFFFF;
+  padding: 0.2em 0.2em 0.1em 0.2em;
+  margin: 0 2px 0 0;
+  border: solid 1px #414146;
+  position: relative;
+  top: 0.3em;
+  z-index: 1; }
+
+.main div.tit12 {
+  font-size: 15px;
+  margin: -10px 15px 1em 15px;
+  padding: 15px 0.4em 0.6em 0.4em;
+  border: solid 1px #717178; }
+
+.menu .pad {
+  padding: 20px, 0, 0, 0; }
+
+.menu .lbor {
+  width: 200px;
+  border-left: solid 4px #747474;
+  border-bottom: solid 1px #747474; }
+
+.menu .title {
+  width: 100%;
+  font-size: 10pt;
+  font-family: Impact, Arial, Verdana, sans-serif;
+  letter-spacing: 0.4em;
+  color: #FFFFFF;
+  background-color: #747474;
+  padding: 1px 1em 1px 0.7em;
+  border-left: solid 3px #DADADD;
+  filter: 'alpha(opacity=100,finishopacity=10,style=1)'; }
+
+.menu .text {
+  line-height: 1.5em;
+  font-size: 9pt;
+  color: #151515;
+  padding: 0.7em;
+  border-top: solid 1px #747474;
+  border-right: solid 1px #F5F5F5;
+  border-left: solid 3px #DADADD; }
+
