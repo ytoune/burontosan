@@ -1,0 +1,114 @@
+
+.main
+
+  & .aka
+    font-weight: bold
+    color: red
+
+
+  & .kuro
+    font-weight: bold
+
+  & .ex
+    margin: 4px 4px 2px 4px
+    padding: 3px 0 0 0
+    border : 1px solid #000000
+    font-family: Arial
+    font-size: 20px
+
+  & h2.title02
+    margin: 0.5em 10% 1.2em 10px
+    padding: 0.3em 0.5em 0.2em 0.5em
+    border-style: solid
+    border-width: 0 0 1px 25px
+    border-color: #C8C8C9
+    font-size: 16px
+
+  & h3.title02
+    font-family: "MS PGothic"
+    margin: 50em 15% 0.5em 10px
+    padding: 1em 0.5em 0.1em 0.5em
+    border-style: solid
+    border-width: 0 0 1px 17px
+    border-color: #DCDCDE
+    font-size: 12pt
+
+  & pre.AA
+    font-family: "MS PGothic"
+    font-size: 12pt
+
+  $title-background-color: #414146
+  $title-border-color: #717178
+
+  // タイトルの設定
+  & h2.uandd
+    font-size: 18px
+    font-family: monospace
+    // 余白。15%が右の余白です
+    margin: 1.5em 15% 0.7em 15px
+    border-bottom: solid 1px $title-border-color
+
+  // 上がる文字
+  & h2.uandd span.up
+    color: #FFFFFF
+    background-color: $title-background-color
+    padding: 0.2em 0.2em 0.1em 0.2em
+    margin: 0 2px 0 0
+    border: solid 1px $title-background-color
+
+  // 下がる文字
+  & h2.uandd span.down
+    color: #212125
+    background-color: #FFFFFF
+    padding: 0.2em 0.2em 0.1em 0.2em
+    margin: 0 2px 0 0
+    border: solid 1px $title-background-color
+    position: relative
+    // 下がる程度
+    top: 0.3em
+    z-index: 1
+
+  // 文章枠
+  & div.tit12
+    font-size: 15px
+    // ここの-10pxは、合うように適宜変更を…
+    margin: -10px 15px 1em 15px
+    padding: 15px 0.4em 0.6em 0.4em
+    border: solid 1px $title-border-color
+
+
+.menu
+
+  & .pad
+  	padding: 20px, 0, 0, 0
+
+  $menu-background-color: #747474
+  $menu-border-color: #DADADD
+
+  // 全体枠
+  & .lbor
+    width: 200px
+    border-left: solid 4px $menu-background-color
+    border-bottom: solid 1px $menu-background-color
+
+  // タイトル部分
+  & .title
+    width: 100%
+    font-size: 10pt
+    font-family: Impact, Arial, Verdana, sans-serif
+    letter-spacing: 0.4em
+    color: #FFFFFF
+    background-color: $menu-background-color
+    padding: 1px 1em 1px 0.7em
+    border-left: solid 3px $menu-border-color
+    filter: 'alpha(opacity=100,finishopacity=10,style=1)'
+
+  // 内容部分
+  & .text
+    line-height: 1.5em
+    font-size: 9pt
+    color: #151515
+    padding: 0.7em
+    border-top: solid 1px $menu-background-color
+    border-right: solid 1px #F5F5F5
+    border-left: solid 3px $menu-border-color

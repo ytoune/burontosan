@@ -1,3 +1,5 @@
 
 require('./index.html')
-require('./style.css')
+require('./right.html')
+require('./left.html')
+require('./style.sass')
